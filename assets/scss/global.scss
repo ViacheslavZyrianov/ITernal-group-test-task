@@ -1,0 +1,25 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.site {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+  color: #263238;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.main {
+  flex: 1;
+}
+
+.page {
+  align-self: stretch;
+}
